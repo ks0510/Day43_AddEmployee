@@ -42,7 +42,8 @@ body {
     background-color: #f7f7f7;
     display: flex;
     justify-content: center;
-    align-items: center; border: 0px solid green;
+    align-items: center;
+     border: 0px solid green;
 }
 
 .form {
@@ -50,7 +51,8 @@ body {
     padding: 44px 60px;
     background: #ffffff 0% 0% no-repeat padding-box; 
     box-shadow: 0px 3px 6px #00000029;
-    border: 1px solid #f5f5f5; border-radius: 8px;
+    border: 1px solid #f5f5f5; 
+    border-radius: 8px;
     opacity: 1;
 }
 
@@ -64,7 +66,8 @@ body {
 
 .row-content {
     display: flex;
-    flex-direction: row; margin-bottom: 10px; align-items: center;
+    flex-direction: row; margin-bottom: 10px; 
+    align-items: center;
     border: 0px solid green;
 }
 
@@ -87,3 +90,27 @@ body {
     border-radius: 4px;
     resize: vertical;
 }
+
+.profile-radio-content {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+    
+}
+    
+.labeltext { 
+    display: flex; 
+    flex-direction: row; 
+    margin-left: 250px;
+    margin-top: 5%;
+    font-size: 16px;
+    color: #425151;
+}
+.profile { 
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+
