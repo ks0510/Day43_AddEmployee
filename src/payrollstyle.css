@@ -95,22 +95,25 @@ body {
     display: flex; 
     flex-direction: row;
     justify-content: center;
-    margin-top: 1%;
+    margin-top: 0%;
     
 }
     
-.labeltext { 
-    display: flex; 
-    flex-direction: row; 
-    margin-left: 250px;
-    margin-top: 5%;
-    font-size: 16px;
-    color: #425151;
+.profile-radio-content > label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .profile { 
-    width: 50px;
+    width: 40px;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 12px;
+}
+
+.row-content1 >label{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
 }
 
 
